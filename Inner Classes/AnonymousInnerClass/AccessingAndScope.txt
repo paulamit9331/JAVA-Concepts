@@ -1,0 +1,22 @@
+Accessing Local Variables of the Enclosing Scope, and Declaring and Accessing Members of the Anonymous Class:
+
+Like local classes, anonymous classes can capture variables; they have the same access to local variables of the enclosing scope:
+
+An anonymous class has access to the members of its enclosing class.
+
+An anonymous class cannot access local variables in its enclosing scope that are not declared as final or effectively final.
+
+Like a nested class, a declaration of a type (such as a variable) in an anonymous class shadows any other declarations in the enclosing scope that have the same name.
+
+Anonymous classes also have the same restrictions as local classes with respect to their members:
+
+1. We cannot declare static initializers or member interfaces in an anonymous class.
+2. An anonymous class can have static members provided that they are constant variables.
+
+Note that you can declare the following in anonymous classes:
+1. Fields
+2. Extra methods (even if they do not implement any methods of the supertype)
+3. Instance initializers
+4. Local classes
+
+However, constructors can not be declared in an anonymous class.

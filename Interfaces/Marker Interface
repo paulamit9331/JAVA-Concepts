@@ -1,0 +1,19 @@
+Marker Interface -> If an interface doesn't contain any method but
+
+
+
+
+
+
+1. Serializable -> By implementing this my object can be saved into a file and travel across the network
+
+2. Clonnable -> to create an duplicate object. We have to implement this method inside the class if we want to clone
+
+3. 
+
+
+
+
+
+How marker interface is getting ability without having any method ?
+-> 

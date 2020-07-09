@@ -1,0 +1,11 @@
+An interface can contain variables and the main purpose of interface variable is to define
+requirement level constants.
+Inside interface every variable is by default is -> public static final, because ------>>>
+
+
+1. public -> so that it can be accessed from every implementation class
+
+2. static -> as we can't create object of the class and these variables are class level
+
+3. final -> for interface multiple class implements it. If one class changes a variable value,
+			then every class will be affected as the variable is static
